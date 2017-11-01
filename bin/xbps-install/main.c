@@ -50,6 +50,8 @@ usage(bool fail)
 	    " -f --force               Force package re-installation\n"
 	    "                          If specified twice, all files will be\n"
 	    "                          overwritten.\n"
+	    "                          If specified three times, the check for\n"
+	    "                          enough disk space will be skipped.\n"
 	    " -h --help                Print help usage\n"
 	    " -i --ignore-conf-repos   Ignore repositories defined in xbps.d\n"
 	    " -U --unpack-only         Unpack packages in transaction, do not configure them\n"
