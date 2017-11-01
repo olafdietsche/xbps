@@ -146,6 +146,10 @@ main(int argc, char **argv)
 			fflag++;
 			if (fflag > 1)
 				flags |= XBPS_FLAG_FORCE_UNPACK;
+
+			if (fflag > 2)
+				flags |= XBPS_FLAG_SKIP_SPACE_CHECK;
+
 			reinstall = true;
 			break;
 		case 'h':

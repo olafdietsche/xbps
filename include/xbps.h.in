@@ -208,6 +208,14 @@
 #define XBPS_FLAG_UNPACK_ONLY 		0x00001000
 
 /**
+ * @def XBPS_FLAG_SKIP_SPACE_CHECK
+ * Do not check for disk space. Package will be installed
+ * unconditionally.
+ * Must be set through the xbps_handle::flags member.
+ */
+#define XBPS_FLAG_SKIP_SPACE_CHECK	0x00002000
+
+/**
  * @def XBPS_FETCH_CACHECONN
  * Default (global) limit of cached connections used in libfetch.
  */
